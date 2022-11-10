@@ -1,7 +1,9 @@
+# Given a water tank (cylindrical shape) with height = 10 and radius = 5. Consider a water pump having a flow rate of 15 m/min . 
+#  WAP in python to find whether it is unt=derflow ir ovwerflow
 pie = 3.14
-r = 5
-h = 10
-f = 15
+r = int(input("Enter radius of water tank: "))
+h = int(input("Enter height of water tank: "))
+f = int(input("Enter flow rate of water:"))
 t = int(input("Enter the time: "))
 vol = pie * (r**2) * h
 
