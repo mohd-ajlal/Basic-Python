@@ -4,9 +4,9 @@
 # **
 # *
 
-s = '*'
-j = 5
 
-for i in range(1, 6):
-    print(s * j)
-    j = j - 1
+rows = int(input("Enter the number of rows: "))
+for i in range(rows):
+    for j in range(rows-i):
+        print("*", end="")
+    print()
