@@ -12,15 +12,16 @@ s = ' '
 for i in st:
     if i.isalpha():
         alpha +=1
-    if i.islower():
-        lower +=1
-    if i.isupper():
-        upper +=1
+        
+        if i.islower():
+            lower +=1
+        elif i.isupper():
+            upper +=1
     if i == 'a' or i == 'e' or i == 'i' or i == 'o' or i == 'u' or i == 'A' or i == 'E' or i == 'I' or i == 'O' or i== 'U':
         vowels +=1
-    if i.isdigit():
+    elif i.isdigit():
         digits +=1
-    if i == (" "):
+    elif i == (" "):
         space +=1
     else:
         sc+=1
