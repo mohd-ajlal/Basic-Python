@@ -9,8 +9,6 @@ def pattern(row):
                 print(" ", end = "")
             for j in range(row - i +1):
                 print("*", end = "")
-            print()
-        for i in range(1, row+1):
             for j in range(i):
                 print("*", end = "")
             for j in range(row - i):
@@ -20,8 +18,11 @@ def pattern(row):
             for j in range(i):
                 print("*", end = "")
             print()
+    else:
+        return None
     
 # main
 
 row = int(input())
 out = pattern(row)
+print(out)
