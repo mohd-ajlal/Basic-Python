@@ -1,7 +1,7 @@
 # For example - The given number is 145, we have to pick each digit and find the factorial 1! = 1, 4! = 24, and 5! = 120.
 
 # Now, we will do the sum of the factorials, we get 1+24+120 = 145, which is exactly the same as the given number.
-#  So we can say that 145 is a strong number.
+#    So we can say that 145 is a strong number.
 
 # Variable to store sum of the numbers
 sum = 0
