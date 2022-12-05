@@ -16,4 +16,4 @@ def fact_sum(l):
     return sum
 # print(fact_sum(2, 3, 0, -1))
 num = list(map(int, input().split()))
-print(fact_sum((num)))
+print(fact_sum(num))
