@@ -11,3 +11,4 @@ while(c != "6174"):
     diff=num2-num1
     c=str(diff)
 print(b)
+
