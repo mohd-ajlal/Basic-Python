@@ -8,5 +8,5 @@
 </picture>
 
 
-It is basic program and question of Python <br>
+BASIC PYTHON PROGRAMMING <br>
 Visual Studio Code Used <br>
