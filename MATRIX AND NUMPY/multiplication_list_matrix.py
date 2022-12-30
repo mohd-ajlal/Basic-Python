@@ -16,7 +16,7 @@ def disp_matrix(arr):
 '''
 1 X 4 4 x 1
 '''
-mat1 = [[3, 5, 6]]
+mat1 = [[3, 5, 6], [5,5,8],[4,4,4]]
 mat2 = [[3, 1, 1], [4, 3, 4], [3, 5, 0]]
 
 if valid_matrix(mat1) and valid_matrix(mat2):
