@@ -18,7 +18,7 @@ for i in range(0,3):
     for j in range(0, 3):
         c1[j] = a[i][j] + b[i][j]
     c.append(c1)
-
+print(c)
 for i in c:
     print(i)
         
